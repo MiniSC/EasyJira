@@ -29,9 +29,11 @@
     <actions>
         <!-- Add your actions here -->
         <action id="JiraTaskCreateAction" class="com.zm.easyjira.action.JiraTaskCreateAction"
-                text="JiraTaskCreateAction" description="create jira task">
+                text="create jira task" description="create jira task">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="meta alt J"/>
         </action>
+
     </actions>
 
 </idea-plugin>
