@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.zm.easyjira</id>
+    <name>Easy Jira</name>
+    <version>1.0</version>
+    <vendor email="294879521@qq.com" url="https://www.byai.com/">byai</vendor>
+
+    <description><![CDATA[
+      easy jira tool.<br>
+      <em>most H   TML tags may be used</em>
+    ]]></description>
+    <!--<em>most HTML tags may be used</em>-->
+
+    <change-notes><![CDATA[
+      v0.0.1 save task an list.<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
